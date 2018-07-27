@@ -1,5 +1,6 @@
 # regexp hub
-A collection of useful regex patterns, if you find error, please tell me or give me a pull request, thank you very much...
+A collection of useful regexp patterns. if you find any error or have some useful regexp is not in here, please tell me. welcome pull request, thank you very much...
+Or you
 
 ### regexps
 
