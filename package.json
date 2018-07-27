@@ -1,0 +1,28 @@
+{
+  "name": "regexp-hub",
+  "version": "0.0.1",
+  "description": "A collection of useful regex patterns",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build && npm run test",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --colors ./test/*.spec.js",
+    "test:watch": "mocha --colors -w ./test/*.spec.js"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "regular",
+    "expression",
+    "patterns"
+  ],
+  "author": "qizf",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "yargs": "^12.0.1"
+  }
+}
