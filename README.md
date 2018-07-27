@@ -1,9 +1,7 @@
-# regexp hub
+# regexp hub 📦
 A collection of useful regexp patterns. if you find any error or have some useful regexp is not in here, please tell me. welcome pull request, thank you very much...
-Or you
 
 ### regexps
-
 ```javascript
   'require': /^.+$/, // required
   'username': /^[a-zA-Z0-9_-]{3,16}$/, // username
